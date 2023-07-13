@@ -1,0 +1,306 @@
+
+body {
+    font-family: Poppins, montserrat;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.name-blog {
+    background-image: url('images/gradien.png');
+    background-size: 310px;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: montserrat;
+    font-size: 40px;
+    text-align: center;
+}
+.desc {
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+h1 {
+    background-image: url('images/gradien.png');
+    background-size: 150px;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+h1, h3{
+    margin: 0;
+    font-weight: 100;
+}
+
+h2 {
+    color: white;
+}
+
+.create-blog {
+    background-image: url('images/gradien-half.png');
+    background-size: cover;
+    background-position: center ;
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    text-align: end;
+
+
+}
+.create-text {
+    background-image: url('images/gradien.png');
+    background-size: 345px;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    width: 90%;
+    /* text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.15); */
+}
+
+
+.form-btn-div {
+   padding: 50px 10px 50px 100px;
+   justify-items: end;
+
+}
+
+.create-icon {
+    padding: 20px;
+    
+}
+
+.header-icon {
+    width: 100%;
+}
+
+.blog-form {
+    display: grid;
+    justify-items: end;
+}
+
+.edit-form input[type="text"],
+.blog-form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: montserrat;
+    font-weight: bold;
+    border: 1px groove rgba(74, 101, 163, 1);
+    border-radius: 8px;
+}
+
+.edit-form textarea,
+.blog-form textarea {
+    width: 90%;
+    min-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: montserrat;
+    border: 1px groove rgba(74, 101, 163, 1);
+    border-radius: 8px;
+}
+
+.blog-form button {
+    padding: 10px 40px;
+    max-width: 200px;
+    max-height: 50px;
+    background-color: rgba(74, 101, 163, 1);
+    border-radius: 180px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.edit-form input[type="text"],
+.edit-form textarea {
+    width: 92%;
+}
+
+.edit-form button {
+    padding: 5px 20px;
+    max-width: 200px;
+    max-height: 50px;
+    background-color: rgba(74, 101, 163, 1);
+    border-radius: 180px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+.gradien-background-all-blog {
+    width: 100%;
+    
+}
+
+.all-blog {
+    padding: 50px;
+    background-color: rgba(191, 148, 232, 1);
+    background-image: url('images/gradien.png');
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0px;
+    text-shadow:  0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+#blog-entries {
+  /* border: 1px gray solid;
+  background-color: white; */
+    max-width: 1000px;
+    text-align: left;
+    text-shadow: none;
+    margin: auto;
+
+}
+.title-blog {
+    font-family: montserrat;
+    font-weight: 700;
+}
+.content-blog {
+    font-family: montserrat;
+    font-size: 14px;
+}
+
+.blog-entry {
+    /* border: 1px gray solid; */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.edit-like-cont {
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    text-align: center;
+    justify-items: right;
+    height: 30px;
+}
+
+.edit-link {
+    padding: 5px 20px;
+    background-color: rgba(74, 101, 163, 1);
+    border-radius: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 14px;
+    height: 20px;
+}
+
+.like-button {
+    border: none;
+    background-color: white;
+}
+.like-button:focus,
+.like-button:active{
+    background-color:  rgba(74, 101, 163, 1);
+    border-radius: 50px;
+    padding: 5px 8px;
+}
+
+.logo a {
+font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgba(151, 150, 240, 1);
+}
+
+.menu li a:hover {
+    color: #333;
+    text-decoration:overline;
+    color: rgba(74, 101, 163, 1);
+}
+
+/* About-Me */
+.about-me {
+    display: grid;
+    justify-items: center;
+}
+
+.name {
+    background-image: url('images/gradien.png');
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+    background-size: 200px;
+    -webkit-background-clip: text;
+}
+
+.desc-about-me {
+    border-radius: 20px;
+    background-image: url('images/gradien.png');
+    background-size: cover;
+    background-position: center ;
+    padding: 25px;
+    color: white;
+}
+
+footer {
+    /* background-color: rgba(191, 148, 232, 1);
+    background-image: url('images/gradien.png');
+    background-size: cover;
+    background-position: center; */
+    padding: 30px;
+    font-size: 14px;
+    color: rgba(151, 150, 240, 1);
+}
+
+.no-copyright {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    text-align: end;
+}
+
+.mail {
+    display: grid;
+    grid-template-columns: 35px 30px 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+  
